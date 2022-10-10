@@ -1,4 +1,4 @@
-package com.practice.javaone;
+package com.practice.javaone.hw1;
 
 /*
     a) Create a new `String` object and assign it your name. Print it out.
@@ -15,4 +15,21 @@ package com.practice.javaone;
 public class StringOperations {
 
     //TODO: Start your code after this line
+    public static void main(String[] args) {
+        String name = "Frank";
+        System.out.println(name);
+
+        String newName = "A" + name.substring(1,name.length()-1) + "Z";
+        System.out.println(newName);
+
+        String url = "www.name.com";
+
+        int firstIdx = url.indexOf(".");
+        int secIdx = url.indexOf(".", firstIdx + 1);
+        String urlName = url.substring(firstIdx+1, secIdx) + "1331";
+        System.out.println(urlName);
+
+
+    }
+
 }

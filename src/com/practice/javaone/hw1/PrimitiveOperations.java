@@ -1,4 +1,4 @@
-package com.practice.javaone;
+package com.practice.javaone.hw1;
 /* a) First, declare and initialize two variables, an integer type (byte, short, int, or long) and a floating point value (float or double).
       The names and values can be whatever you like, for this step and all others. Make sure that the numbers you choose can be stored within
       the respective primitive type you choose. Print each of these values out on their own line using `System.out.println()`.
@@ -31,6 +31,8 @@ public class PrimitiveOperations {
 
         double floatingNum1 = (double) num1;
         System.out.println(floatingNum1);
+        int intNum2 = (int) num2;
+        System.out.println(intNum2);
 
         char var1 = 'A';
         System.out.println(var1);
